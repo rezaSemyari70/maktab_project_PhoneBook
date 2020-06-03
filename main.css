@@ -1,0 +1,19 @@
+#form{
+    width: 272px;
+    transition: margin 0.5s;
+    margin-right: -272px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+
+#form .show{
+    margin-right: 0;
+}
+
+.add-btn{
+    width: 80px;
+}
