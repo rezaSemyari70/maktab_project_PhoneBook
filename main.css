@@ -1,19 +1,117 @@
-#form{
+body {
+    background: linear-gradient(to left,rgb(255, 255, 217) , rgb(190, 99, 212));
+}
+
+#form {
     width: 272px;
     transition: margin 0.5s;
     margin-right: -272px;
+    background: #8f8f8f15;
+    border-radius: 4px;
+    /* border: 6px solid rgb(49, 49, 49); */
 }
-#main{
+
+#main {
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
 }
 
-
-#form .show{
+#form.show {
     margin-right: 0;
 }
 
-.add-btn{
+.add-btn {
     width: 80px;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    box-shadow: 5px 3px 8px #8f8f8f;
+}
+button:hover{
+    transform: scale(1.08);
+}
+
+.form-group {
+    margin-bottom: 3px !important;
+}
+
+.submitButton {
+    outline: none !important;
+    width: 60%;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=email]
+ {
+    background-color: rgba(0, 0, 0, 0.089);
+    color: rgb(41, 41, 41);
+    font-weight: 500;
+    
+}
+
+input:hover{
+transform: scale(1.03);   
+}
+
+.deletBtn {
+    background-color: rgb(220, 20, 103);
+}
+
+.deletBtn:hover{
+    background-color:rgb(192, 18, 90) ;
+}
+
+.btnAdd {
+    width: 200px;
+    height: 40px;
+}
+
+.fa-trash{
+    color: white;
+}
+
+.btnCloseForm {
+    width: 100px;
+    height: 40px;
+}
+
+.bgThead{
+    background-color: #414040;
+    color: white;
+}
+
+table{
+    border: #242424 !important;
+}
+
+table tr{
+    font-weight: 600;
+    
+}
+
+.borderRow{
+    border:5px solid #414040 !important;
+    border-radius: 25px !important;
+    
+}
+
+table td{
+    border: none !important;
+}
+
+table td:hover{
+    /* font-size: 18px; */
+    transform: scale(1.1);
+}
+
+
+.table td{
+    padding: .75rem;
+    vertical-align: text-bottom;
+    border-top: 1px solid #dee2e6;
 }
